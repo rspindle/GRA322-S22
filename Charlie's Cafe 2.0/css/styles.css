@@ -59,7 +59,6 @@ h3 {
 li {
     font-size: 20px;
 }
-
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
