@@ -560,7 +560,6 @@ footer p {
     .locationshours {
         grid-template-columns: 1fr;
         font-size: 20px;
-        padding: 4rem;
         margin-right:0rem;
     }
 
@@ -581,8 +580,8 @@ footer p {
         padding: 1rem;
     }
 
-    .lshs {
-        margin-right:-3rem;
+    .lsnhs {
+        margin-right:3rem;
     }
 }
 
