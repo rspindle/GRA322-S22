@@ -280,147 +280,6 @@ footer p {
     font-weight: 300;
 }
 
-@media screen and (max-width: 400px) {
-    .body {
-        display: left;
-    }
-
-    .title {
-        font-size: 3px;
-        margin-left: -2rem;
-        
-    }
-
-    .mlcs {
-        font-size: 6px;
-        margin-left: auto;
-    }
-
-    header {
-        background-color: #D3964E;
-        font-size: 20px;
-        font-weight: 300;
-        color: #fff
-    }
-
-
-    .drinks {
-        display: grid;
-        grid-template-columns: 1fr;
-        background-color: #6895A4;
-        font-weight: 300;
-        font-size: 12px;
-        padding: 2rem;
-    }
-
-    li {
-        font-size: 12px;
-    }
-
-
-    .firstcolumn {
-        font-size: 15px;
-    }
-
-    .secondcolumn {
-        margin-top: 4rem;
-        margin-left: 0rem;
-    }
-
-    .gridcontainer {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        background-color: #D3964E;
-    }
-
-    .title {
-        font-size: 12px;
-    }
-
-    .mlc {
-        font-size: 12px;
-    }
-
-    .twomlc {
-        font-size: 12px;
-    }
-    
-    .threemlc {
-        font-size: 12px;
-    }
-
-    .aboutinfo {
-        margin-left: 1rem;
-        margin-top: 2rem;
-        font-size: 15px;
-        font-weight: 300;
-        color: #fff
-    }
-
-    .about {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-left: 1rem;
-        margin-top: 2rem;
-        font-size: 20px;
-        color: #fff
-    }
-
-    .paninititle {
-        color: #6895A4;
-        margin-bottom: 2rem;
-    }
-    
-    .paninis {
-        margin-top: 2rem;
-        grid-template-columns: 1fr;
-        margin-left: 1rem;
-        margin-bottom: 3rem;
-        font-weight: 300;
-        margin-right: 2rem;
-    }
-
-    .secondpanini {
-        margin-top:-3rem;
-    }
-
-    .contact {
-        margin-top: 4rem;
-        grid-template-columns: 1fr;
-        display: grid;
-        color: #fff;
-        font-size: 20px;
-    }
-
-    .phone {
-        font-size: 20px;
-    }
-
-    .locationshours {
-        grid-template-columns: 1fr;
-        font-size: 20px;
-        padding: 4rem;
-    }
-
-    .designnorth {
-        font-size: 20px;
-    }
-
-    .locations {
-        font-size: 20px;
-    }
-
-    .illustration {
-        padding: -5rem;
-        width: 240px;
-    }
-
-    .grid {
-        padding: 1rem;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .body {
         display: left;
@@ -569,3 +428,161 @@ footer p {
         padding: 1rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .body {
+        display: left;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        font-size: 3px;
+        margin-left: -2rem;
+        
+    }
+
+    .mlcs {
+        font-size: 6px;
+        margin-left: auto;
+    }
+
+    header {
+        background-color: #D3964E;
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff
+    }
+
+
+    .drinks {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #6895A4;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 2rem;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    .logo {
+        margin-left: 1.5rem;
+    }
+
+
+    .firstcolumn {
+        font-size: 15px;
+    }
+
+    .secondcolumn {
+        margin-top: 4rem;
+        margin-left: 0rem;
+    }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        background-color: #D3964E;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .mlc {
+        font-size: 12px;
+    }
+
+    .twomlc {
+        font-size: 12px;
+    }
+    
+    .threemlc {
+        font-size: 12px;
+    }
+
+    .aboutinfo {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 20px;
+        color: #fff
+    }
+
+    .paninititle {
+        color: #6895A4;
+        margin-bottom: 2rem;
+    }
+    
+    .paninis {
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+        font-weight: 300;
+        margin-right: 2rem;
+    }
+
+    .secondpanini {
+        margin-top:-3rem;
+    }
+
+    .contact {
+        margin-top: 4rem;
+        grid-template-columns: 1fr;
+        display: grid;
+        color: #fff;
+        font-size: 20px;
+        margin-left: 0rem;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+
+    .locationshours {
+        grid-template-columns: 1fr;
+        font-size: 20px;
+        padding: 4rem;
+        margin-right:0rem;
+    }
+
+    .designnorth {
+        font-size: 20px;
+    }
+
+    .locations {
+        font-size: 20px;
+    }
+
+    .illustration {
+        padding: -5rem;
+        width: 240px;
+    }
+
+    .grid {
+        padding: 1rem;
+    }
+
+    .lshs {
+        margin-right:-3rem;
+    }
+}
+
