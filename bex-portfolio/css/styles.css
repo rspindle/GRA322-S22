@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300
+}
+
+header{
+    font-weight:600;
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+    text-decoration:none;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+h2 {
+    font-size:20px;
+    font-weight:600;
+    margin-left: 2rem;
+}
+
+.tds {
+    float:right;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer {
+    padding:2rem;
+}
+
+.menu {
+    display: flex;
+    float:right;
+    text-align: center;
+    margin-right: auto;
+    padding:0;
+}
+
+
+.movie {
+    width: 400px;
+}
+
+p {
+    padding: 1rem;
+}
+
+.copy {
+    padding:0;
+    font-size: 10px;
+}
+
+.techfordes {
+    background-color: #000;
+    color:#fff;
+}
+
+.ssensetitle{
+    color: #fff;
+}
+
+.ssensescript {
+    color:#fff;
+}
+
+.ssensehome {
+    margin-bottom:1rem;
+}
+
+.linenhome {
+    margin-bottom: 1rem;
+}
+
+.linenimgs {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menuitems {
+    padding:2rem;
+}
+
+.home {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f4f4f4;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    header {
+        font-size: 10px;
+        padding:2rem;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight:300;
+    }
+
+    .menu {
+        display: flex;
+        float:under;
+        text-align: center;
+        margin-right: auto;
+        padding:0;
+        font-size: 10px;
+    }
+
+    .linenssence {
+        font-size: 5px;
+        color: #000;
+    }
+
+
+    .movie {
+        width: 400px;
+    }
+
+    p {
+        padding: 2rem;
+    }
+
+    .ssense {
+        background-color: #000;
+    }
+
+    .ssensetitle{
+        color: #fff;
+    }
+    
+    .ssensescript {
+        color:#fff;
+    }
+}
+

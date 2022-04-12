@@ -1,0 +1,587 @@
+html {
+    --gray: #444;
+    --gray-dark: #333;
+    --gray-light: #f2f2f2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight:100
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.mlc {
+    margin-left: auto;
+    padding-top: .5rem;
+}
+
+.twomlc {
+    padding-top: .5rem;
+}
+
+.threemlc {
+    padding-top: .5rem;
+}
+
+.mlcs {
+    margin-left: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 15;
+    color: #D3964E;
+    font-weight: 500;
+}
+
+.logo {
+   width: 400px;
+   height: 400px;
+   margin-bottom: 4rem;
+}
+
+li {
+    font-size: 20px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+    background-color: #D3964E;
+}
+
+.email {
+    margin-left: -2.5rem;
+}
+
+h4 {
+    color: #fff
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 640px 640px;
+    gap: 15px;
+    background-color: #D3964E;
+    padding: 15px;
+}
+
+.title {
+    font-size: 30px;
+}
+header {
+    background-color: #D3964E;
+    padding: 2rem 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-size: 30px;
+    color: #fff
+}
+
+.aboutinfo {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff
+}
+
+.logo {
+    margin-left: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-size: cover;
+    height: 60vh;
+    display: block;
+}
+
+.drinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8rem;
+    background-color: #6895A4;
+    font-weight: 300;
+}
+
+.firstcolumn {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #fff;
+}
+
+.secondcolumn {
+    margin-left: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #fff;
+}
+
+.paninititle {
+    color: #6895A4;
+    margin-bottom: 4rem;
+}
+
+.paninis {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+    margin-right: 8rem;
+    gap: 5rem;
+    font-weight: 300;
+}
+
+.firstpanini {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #6895A4;
+}
+
+.secondpanini {
+    margin-top: 9rem;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #6895A4;
+}
+
+.lsnhs {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+.locationshours {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 8rem;
+    gap: 6rem;
+    font-weight: 300;
+    background-color: #6895A4;
+}
+
+.locations {
+    color: #fff
+}
+
+.hayden {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+.designnorth {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+.ccs {
+    color: #fff
+}
+
+.biodesign {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+.locations {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact {
+    margin-top: 4rem;
+    margin-left: auto;
+    display: grid;
+    color: #fff;
+}
+
+.illustration {
+    margin-right: 6rem;
+    margin-top: 5rem;
+}
+
+.phone {
+    margin-top: 3rem;
+    margin-left: -2.5rem;
+}
+
+.overview {
+    background-color: var(--gray);
+    color: #fff;
+    padding: 4rem 0;
+}
+
+figure {
+    margin-top: 2rem;
+}
+
+figure img {
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.sample {
+    padding: 5rem 0;
+}
+
+footer {
+    background-color: #D3964E;
+    padding: 1.5rem 0;
+    color:#fff
+}
+
+.hay {
+    font-display: underline;
+}
+
+.copy {
+    margin-left: 5rem;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .body {
+        display: left;
+    }
+
+
+    .title {
+        font-size: 3px;
+        margin-left: -2rem;
+        
+    }
+
+    .mlcs {
+        font-size: 6px;
+        margin-left: auto;
+    }
+
+    header {
+        background-color: #D3964E;
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff
+    }
+
+
+    .drinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #6895A4;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 2rem;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+
+    .firstcolumn {
+        font-size: 15px;
+    }
+
+    .secondcolumn {
+
+        margin-left: 0rem;
+    }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        background-color: #D3964E;
+    }
+
+    .logo {
+        width: 280px;
+        height: 280px;
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .mlc {
+        font-size: 12px;
+    }
+
+    .twomlc {
+        font-size: 12px;
+    }
+    
+    .threemlc {
+        font-size: 12px;
+    }
+
+    .aboutinfo {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 20px;
+        color: #fff
+    }
+
+    .paninititle {
+        color: #6895A4;
+        margin-bottom: 2rem;
+    }
+    
+    .paninis {
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+        font-weight: 300;
+        margin-right: 2rem;
+    }
+
+    .secondpanini {
+        margin-top:-3rem;
+    }
+
+    .contact {
+        margin-top: 7rem;
+        margin-left: 3rem;
+        grid-template-columns: 1fr;
+        display: grid;
+        color: #fff;
+        font-size: 20px;
+    }
+
+
+    .locationshours {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        font-size: 20px;
+        padding: 4rem;
+    }
+
+    .designnorth {
+        font-size: 20px;
+    }
+
+    .locations {
+        font-size: 20px;
+    }
+
+    .illustration {
+        padding: -3rem;
+        width: 280px;
+        margin-left: 2rem;
+    }
+
+    .grid {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .body {
+        display: left;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        font-size: 3px;
+        margin-left: -2rem;
+        
+    }
+
+    .mlcs {
+        font-size: 6px;
+        margin-left: auto;
+    }
+
+    header {
+        background-color: #D3964E;
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff
+    }
+
+
+    .drinks {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: #6895A4;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 2rem;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    .logo {
+        margin-left: 1.5rem;
+    }
+
+
+    .firstcolumn {
+        font-size: 15px;
+    }
+
+    .secondcolumn {
+        margin-top: 4rem;
+        margin-left: 0rem;
+    }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        background-color: #D3964E;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+    .mlc {
+        font-size: 12px;
+    }
+
+    .twomlc {
+        font-size: 12px;
+    }
+    
+    .threemlc {
+        font-size: 12px;
+    }
+
+    .aboutinfo {
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 15px;
+        font-weight: 300;
+        color: #fff
+    }
+
+    .about {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 20px;
+        color: #fff
+    }
+
+    .paninititle {
+        color: #6895A4;
+        margin-bottom: 2rem;
+    }
+    
+    .paninis {
+        margin-top: 2rem;
+        grid-template-columns: 1fr;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+        font-weight: 300;
+        margin-right: 2rem;
+    }
+
+    .secondpanini {
+        margin-top:-3rem;
+    }
+
+    .contact {
+        margin-top: 4rem;
+        grid-template-columns: 1fr;
+        display: grid;
+        color: #fff;
+        font-size: 20px;
+        margin-left: 0rem;
+    }
+
+    .phone {
+        font-size: 20px;
+    }
+
+    .locationshours {
+        grid-template-columns: 1fr;
+        font-size: 20px;
+        margin-right:0rem;
+    }
+
+    .designnorth {
+        font-size: 20px;
+    }
+
+    .locations {
+        font-size: 20px;
+    }
+
+    .illustration {
+        padding: -5rem;
+        width: 240px;
+    }
+
+    .grid {
+        padding: 1rem;
+    }
+
+    .lsnhs {
+        margin-right:3rem;
+    }
+}
+
