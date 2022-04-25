@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight:300
@@ -9,7 +11,16 @@ header{
     background-color: #000;
     color: #fff;
     text-decoration:none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+.mainheader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 
 h1 {
     font-size: 20px;
@@ -21,10 +32,6 @@ h2 {
     font-size:20px;
     font-weight:600;
     margin-left: 2rem;
-}
-
-.tds {
-    float:right;
 }
 
 ul {
@@ -44,10 +51,58 @@ footer {
     padding:0;
 }
 
+.menuitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+
+.twolakituloaf {
+    gap: 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.load {
+    padding: 2rem;
+}
+
+.lakitufinal {
+    gap: 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.switchmockups {
+    gap: 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .movie {
-    width: 400px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+      
 }
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 p {
     padding: 1rem;
@@ -55,7 +110,7 @@ p {
 
 .copy {
     padding:0;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .techfordes {
@@ -63,31 +118,64 @@ p {
     color:#fff;
 }
 
-.ssensetitle{
-    color: #fff;
+
+.salt {
+    padding:2rem;
 }
 
-.ssensescript {
-    color:#fff;
+.ssensesalt {
+    padding:2rem;
 }
 
-.ssensehome {
-    margin-bottom:1rem;
+.ssenseimgs {
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.linenhome {
-    margin-bottom: 1rem;
+.twossenseimgs {
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
+
+.threessenseimgs {
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fourssenseimgs {
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.octossense {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+
+.ssensefinal {
+    padding: 2rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 
 .linenimgs {
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.menuitems {
-    padding:2rem;
-}
 
 .home {
     text-decoration: none;
@@ -97,13 +185,135 @@ footer {
     background-color: #f4f4f4;
 }
 
+a {
+    color:#fff;
+    text-decoration: none;
+}
 
-@media screen and (max-width: 400px) {
+.linendescription {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lz {
+   margin-left: 20rem;
+   margin-top: 1rem;
+}
+
+.button {
+    background-color: #000000;
+    color: #fff;
+    float: right;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding:0rem;
+  }
+  
+  .dropdown {
+    float: right;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.2);
+    z-index: 1;
+    margin-top: 1.5rem;
+  }
+  .dropdown-content a {
+    color: white;
+    font-weight: 600;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #f4f4f4;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #000;}
+
+  .illuminateimgs {
+      display: grid;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      padding: 2rem;
+      gap: 2rem;
+  }
+
+  .bookmark {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .tshirtbutton {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .firstpresentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .mlkfinal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .onecharlies {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .twocharlies {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .threecharlies {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+
+  @media screen and (max-width: 800px) {
+    .menuitems {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+  @media screen and (max-width: 550px) {
+
+    
+    .linenimgs {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
 
     header {
-        font-size: 10px;
+        font-size: 16px;
         padding:2rem;
     }
+
 
     h1 {
         font-size: 20px;
@@ -123,14 +333,16 @@ footer {
         font-size: 10px;
     }
 
+    .menuitems {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+
+    }
+
     .linenssence {
         font-size: 5px;
         color: #000;
-    }
-
-
-    .movie {
-        width: 400px;
     }
 
     p {
@@ -149,4 +361,8 @@ footer {
         color:#fff;
     }
 }
+
+
+
+
 
