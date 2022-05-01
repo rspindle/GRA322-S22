@@ -54,6 +54,7 @@ h3 {
    width: 400px;
    height: 400px;
    margin-bottom: 4rem;
+   margin-right: 8rem;
 }
 
 li {
@@ -287,19 +288,20 @@ footer p {
 
 
     .title {
-        font-size: 3px;
+        font-size: 6px;
         margin-left: -2rem;
+        margin-top: .5rem;
         
     }
 
     .mlcs {
         font-size: 6px;
         margin-left: auto;
+        margin-bottom: .25rem;
     }
 
     header {
         background-color: #D3964E;
-        font-size: 20px;
         font-weight: 300;
         color: #fff
     }
